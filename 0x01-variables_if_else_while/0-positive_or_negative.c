@@ -1,10 +1,10 @@
-#include <stdlib>
+#include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
 /*
  * main- print if number is positive, negativeor zero
  *
- * Description- using the main function
+ * Description: using the main function
  * printf prints positive negative and zero
  * Return: 0
 */
