@@ -1,12 +1,13 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*
+/**
  * main - prints the function in main
- * Description: usin the main funtion print last digit of
+ *
+ * Description: using the main funtion print last digit of
  * Return: 0
 */
-int main(voi)
+int main(void)
 {
 	int n;
 	int l;
@@ -26,7 +27,7 @@ int main(voi)
 	}
 	else
 	{
-		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, l)
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, l);
 	}
 	return (0);
 }
