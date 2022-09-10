@@ -1,11 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*
- * main- print if number is positive, negative or zero
+/**
+ * main- prints the string in the main function
  *
- * Description: using the main function print positive negative
- * printf prints positive negative and zero
+ * Description: using the main function print negative and positive
  * Return: 0
 */
 int main(void)
@@ -23,7 +22,7 @@ int main(void)
 	{
 		printf("%d is zero\n", n);
 	}
-	else
+	else if (n < 0)
 	{
 		printf("%d is negetive\n", n);
 	}
