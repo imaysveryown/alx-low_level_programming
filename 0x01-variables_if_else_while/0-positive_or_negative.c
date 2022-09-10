@@ -4,7 +4,7 @@
 /*
  * main- print if number is positive, negative or zero
  *
- * Description: using the main function
+ * Description: using the main function print positive negative
  * printf prints positive negative and zero
  * Return: 0
 */
