@@ -2,9 +2,10 @@
 
 /**
  * _isupper - checks the code if character is uppercase or lower
- * @c: character to be checked
- * Return: 1 for upper, 0 for lower
+ * @c: character to be tested
+ * Return: 1 whether it is, 0 otherwise
 */
+
 int _isupper(int c);
 {
 	if ((c >= 'A') && (c <= 'Z'))
