@@ -4,12 +4,11 @@
 
 /**
  * print_rev - Prints a string in reverse
- * @s: string to be reversed
- * Description: prints string in reverse
+ * @s: String to reverse
  * Return: nothing
 */
 
-void rev_string(char *s)
+void print_rev(char *s)
 {
 	int len = strlen(s);
 
