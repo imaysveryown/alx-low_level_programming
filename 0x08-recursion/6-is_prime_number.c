@@ -20,7 +20,7 @@ int is_prime_number(int n)
  * @start: number to start checking from
  * Return: 1 if n is prime, 0 otherwise
 */
-int is_prime_number(int n, int start)
+int is_prime(int n, int start)
 {
 	if (start <= 1)
 		return (1);
