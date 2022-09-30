@@ -7,7 +7,7 @@
  * @argv: one number of arguments
  * Return: zero on one number of arguments
 */
-int main (int args, char *argv[])
+int main(int args, char *argv[])
 {
 	int c, coins = 0;
 
